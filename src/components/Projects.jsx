@@ -15,9 +15,9 @@ const Projects = () => {
     {
       id: 2,
       title: "AI Email Reply Generator",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/EmailReply.png",
       description: "Generates smart email replies using Gemini API with a Spring Boot backend and a Chrome extension",
-      technologies: ["React", "Java", "Spring Boot", "Gemini API"],
+      technologies: ["Next.js", "Java", "Spring Boot", "Gemini API"],
       demoLink: "#",
       githubLink: "https://github.com/prasadkhotkar/Email-writer",
     },
