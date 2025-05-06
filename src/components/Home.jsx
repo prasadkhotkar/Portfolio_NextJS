@@ -15,7 +15,7 @@ const Home = () => {
   }
 
   return (
-    <div className="min-h-screen flex items-center relative overflow-hidden">
+    <div className="min-h-screen flex items-center  relative overflow-hidden">
       {/* Background elements */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-20 left-10 w-72 h-72 bg-fuchsia-300 dark:bg-fuchsia-900 rounded-full mix-blend-multiply dark:mix-blend-soft-light filter blur-3xl opacity-70 animate-blob"></div>

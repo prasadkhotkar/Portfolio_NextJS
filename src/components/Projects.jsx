@@ -1,10 +1,5 @@
 import { ExternalLink, Github } from "lucide-react"
-import img from "../../public/chatbot.png"
-import img1 from "../../public/TextToSpeak.png"
-import img2 from "../../public/Notes.png"
-import img3 from "../../public/CurrencyConverter.png"
-import img4 from "../../public/shopping.png"
-import img5 from "../../public/Relaxer.png"
+
 
 const Projects = () => {
   const projects = [
@@ -37,6 +32,15 @@ const Projects = () => {
     },
     {
       id: 4,
+      title: "Portfolio",
+      image: "/portfolio.png",
+      description: "A personal portfolio website showcasing my projects and skills",
+      technologies: ["Next.js", "Tailwind CSS"],
+      demoLink: "https://portfolio-next-js-three-nu.vercel.app/",
+      githubLink: "https://github.com/prasadkhotkar/Portfolio_NextJS",
+    },
+    {
+      id: 5,
       title: "ShoppingCart",
       image: "/shopping.png",
       description: "A simple shopping cart application with product listing and cart functionality",
@@ -45,7 +49,16 @@ const Projects = () => {
       githubLink: "https://github.com/prasadkhotkar/ShoppingCart-React",
     },
     {
-      id: 5,
+      id: 6,
+      title: "Currency Converter",
+      image: "/CurrencyConverter.png",
+      description: "A simple currency converter application using React and Tailwind CSS",
+      technologies: ["React", "Tailwind CSS"],
+      demoLink: "https://currency-converter-blue-xi-97.vercel.app/",
+      githubLink: "https://github.com/prasadkhotkar/currencyConverter",
+    },
+    {
+      id: 7,
       title: "Notes App",
       image: "/notes.png",
       description: "A simple notes application with CRUD functionality",
@@ -54,14 +67,15 @@ const Projects = () => {
       githubLink: "https://github.com/prasadkhotkar/React-NoteBookApp",
     },
     {
-      id: 6,
-      title: "Currency Converter",
-      image: "/currencyConverter.png",
-      description: "A simple currency converter application using React and Tailwind CSS",
-      technologies: ["React", "tailwind CSS"],
-      demoLink: "https://currency-converter-blue-xi-97.vercel.app/",
-      githubLink: "https://github.com/prasadkhotkar/currencyConverter",
+      id: 8,
+      title: "Relaxer",
+      image: "/Relaxer.png",
+      description: " A simple web application that helps you relax with brathing animation",
+      technologies: ["CSS", "JavaScript"],
+      demoLink: "https://prasadkhotkar.github.io/Relaxer/",
+      githubLink: "https://github.com/prasadkhotkar/Relaxer",
     },
+    
   ]
 
   return (
